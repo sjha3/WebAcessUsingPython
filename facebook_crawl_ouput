@@ -1,0 +1,286 @@
+C:\Users\sumit\PycharmProjects\WebAccessUsingPython\venv\Scripts\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/facebook_crawl.py
+============ Just me===========
+URL : https://graph.facebook.com/v2.12/me?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD
+headers : [('x-app-usage', '{"call_count":3,"total_cputime":2,"total_time":2}'), ('ETag', '"1f5ea34a41fd27ccf4b871dd56c35a5341645373"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'AFwdGOdLFFx'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'NV/25HSEqBDhT+mH0T0/OY3dGAHoqWoOIbkzKShpGaC3rK5c9elbNqNAkYQDBuTLhk0TJ6hbggl5T36fGErfCQ=='), ('Date', 'Thu, 01 Feb 2018 19:53:01 GMT'), ('Connection', 'close'), ('Content-Length', '45')]
+Json_output ::  {
+  "name": "Sumit Jha",
+  "id": "10202431871380451"
+}
+============Me with friends===========
+URL : https://graph.facebook.com/v2.12/me/friends?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD
+headers : [('x-app-usage', '{"call_count":3,"total_cputime":2,"total_time":2}'), ('ETag', '"bf481f68e9eb066bb0331d0f3405f59b526e4130"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'B8+UwWcyjY8'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'k0RGVqFbl/aPjohDQYW31esqZjKIB4qdGQldGurW8b6qjaYsMwy+J1pRrFcVA1m67uyLI6Yh/uYJm206zadvsA=='), ('Date', 'Thu, 01 Feb 2018 19:53:07 GMT'), ('Connection', 'close'), ('Content-Length', '1113')]
+Json_output ::  {
+  "data": [
+    {
+      "name": "Aniket Dhuri",
+      "id": "553238509"
+    },
+    {
+      "name": "Mani Kumar",
+      "id": "618640558"
+    },
+    {
+      "name": "Sneha Shah",
+      "id": "10152970400164240"
+    },
+    {
+      "name": "Aayush Anand",
+      "id": "702373836"
+    },
+    {
+      "name": "Kumar Abhisek",
+      "id": "10203238566777649"
+    },
+    {
+      "name": "Rishipratim Mazumdar",
+      "id": "10203035465981738"
+    },
+    {
+      "name": "Pratik Anand",
+      "id": "1075546128"
+    },
+    {
+      "name": "Varun Kumar",
+      "id": "10203960340107238"
+    },
+    {
+      "name": "Richa Sinha",
+      "id": "10201844982506149"
+    },
+    {
+      "name": "Vamsi Kalapala",
+      "id": "1462507268"
+    },
+    {
+      "name": "Prateek Gupta",
+      "id": "10204261049117677"
+    },
+    {
+      "name": "Farah Nawaz",
+      "id": "908007749213398"
+    },
+    {
+      "name": "Sarsij Trivedi",
+      "id": "984685621546953"
+    },
+    {
+      "name": "Ketan Jani",
+      "id": "839549332755767"
+    },
+    {
+      "name": "Amarjeet Kumar",
+      "id": "788033481252373"
+    },
+    {
+      "name": "Varun Vyas",
+      "id": "815513075171296"
+    },
+    {
+      "name": "Nguy\u1ec5n H\u1eefu Ngh\u0129a",
+      "id": "100001503372000"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUmtRMFFsNEEyaXR4ajRBWUhoVVFzN1EzT3paY1FDREVHVVVqd3VzVzVDaXdCTzh3Xy1tQ3o1RGNoUU9ERmNRV3kZD",
+      "after": "QVFIUmdZAOW1MOHk1bHdBNmZAkYXBZATnBHSGpPSTZA3X3duLU5mMnVDRmttdm03XzZAPVTEyYWV6NEk5S2hzaUU3dGdWQ0NXQjh0c1JsRTJNLXJscDZAmZAlctaGxR"
+    }
+  },
+  "summary": {
+    "total_count": 726
+  }
+}
+============My photos===========
+URL : https://graph.facebook.com/v2.12/me?fields=id,photos&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD
+headers : [('x-app-usage', '{"call_count":3,"total_cputime":2,"total_time":2}'), ('ETag', '"e30545b7e76e33ec7ed71eb730ee192c83ae75a0"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'DCtA4RwQ05K'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'uI0kJN4mPOQ/X7+Jip8Wqw23oOrHPQKVmuGJ/3uvYi4wvd3Ph8GBIlWCYxbXCe8sOmHsZ+LVmTobNtSeLh/mRA=='), ('Date', 'Thu, 01 Feb 2018 19:53:08 GMT'), ('Connection', 'close'), ('Content-Length', '2420')]
+Json_output ::  {
+  "id": "10202431871380451",
+  "photos": {
+    "data": [
+      {
+        "created_time": "2017-09-04T01:09:16+0000",
+        "name": "Some view",
+        "id": "10209875678870986"
+      },
+      {
+        "created_time": "2017-07-09T17:01:50+0000",
+        "id": "10209454357498215"
+      },
+      {
+        "created_time": "2017-07-09T17:01:48+0000",
+        "id": "10209454356658194"
+      },
+      {
+        "created_time": "2017-07-06T21:07:11+0000",
+        "id": "10209427922877366"
+      },
+      {
+        "created_time": "2017-07-06T21:07:11+0000",
+        "id": "10209427921757338"
+      },
+      {
+        "created_time": "2017-07-06T21:07:11+0000",
+        "id": "10209427921717337"
+      },
+      {
+        "created_time": "2017-07-06T21:07:11+0000",
+        "id": "10209427921637335"
+      },
+      {
+        "created_time": "2017-07-06T21:07:11+0000",
+        "id": "10209427910237050"
+      },
+      {
+        "created_time": "2017-07-04T09:22:05+0000",
+        "id": "1457303664315453"
+      },
+      {
+        "created_time": "2017-05-29T01:55:36+0000",
+        "name": "#Legendary #AnuragWonOverSumit",
+        "id": "1305978006106610"
+      },
+      {
+        "created_time": "2017-05-20T19:10:37+0000",
+        "id": "1298799953491082"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427088857141"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427088657136"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427087737113"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427087657111"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427086897092"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427086577084"
+      },
+      {
+        "created_time": "2017-03-06T00:51:05+0000",
+        "id": "10208427086177074"
+      },
+      {
+        "created_time": "2016-12-19T18:12:09+0000",
+        "id": "1247589931965679"
+      },
+      {
+        "created_time": "2016-12-19T18:11:59+0000",
+        "id": "1247589658632373"
+      },
+      {
+        "created_time": "2016-12-17T19:34:16+0000",
+        "id": "10207822028251004"
+      },
+      {
+        "created_time": "2016-12-17T19:34:16+0000",
+        "id": "10207822010930571"
+      },
+      {
+        "created_time": "2016-12-17T19:34:16+0000",
+        "id": "10207822010850569"
+      },
+      {
+        "created_time": "2016-12-17T19:34:16+0000",
+        "id": "10207822010690565"
+      },
+      {
+        "created_time": "2016-03-08T22:23:25+0000",
+        "id": "10205711638252573"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "TVRBeU1EazROelUyTnpnNE56QTVPRFk2TVRVd05EUTROek0xTmpvek9UUXdPRGsyTkRBMk5EYzRNelk9",
+        "after": "TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9"
+      },
+      "next": "https://graph.facebook.com/v2.12/10202431871380451/photos?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&limit=25&after=TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9"
+    }
+  }
+}
+=============albums======
+URL : https://graph.facebook.com/v2.12/me?fields=albums.limit(5),posts.limit(5)&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD
+headers : [('x-app-usage', '{"call_count":3,"total_cputime":2,"total_time":2}'), ('ETag', '"018ea30f6905957112d0f2269e02d78268008440"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'G4X1x0HWjvA'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', '1PBAJ7CtIk6qBHcScNtGk0RFi1m20eN6tE5ccwg/scNgv66hFYlTdMqvRyudrm+EzVfDX9Eo4ERb+52qimZoHg=='), ('Date', 'Thu, 01 Feb 2018 19:53:09 GMT'), ('Connection', 'close'), ('Content-Length', '2355')]
+Json_output ::  {
+  "albums": {
+    "data": [
+      {
+        "created_time": "2011-09-20T16:22:32+0000",
+        "name": "Timeline Photos",
+        "id": "1947474208897"
+      },
+      {
+        "created_time": "2013-05-10T05:33:20+0000",
+        "name": "Mobile Uploads",
+        "id": "4775227260956"
+      },
+      {
+        "created_time": "2012-11-11T10:48:12+0000",
+        "name": "Cover Photos",
+        "id": "3906594585682"
+      },
+      {
+        "created_time": "2010-12-09T15:36:12+0000",
+        "name": "Profile Pictures",
+        "id": "1467175561731"
+      },
+      {
+        "created_time": "2012-12-24T17:19:10+0000",
+        "name": "Airvana Party",
+        "id": "4090662787272"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "MTk0NzQ3NDIwODg5NwZDZD",
+        "after": "NDA5MDY2Mjc4NzI3MgZDZD"
+      }
+    }
+  },
+  "posts": {
+    "data": [
+      {
+        "message": "A long due trip to White house and the museums around it",
+        "story": "Sumit Jha added 10 new photos \u2014 with Vikas Singh and Praveen Kumar.",
+        "created_time": "2017-12-26T15:59:58+0000",
+        "id": "10202431871380451_10210624893280878"
+      },
+      {
+        "message": "Best hike till date",
+        "story": "Sumit Jha added 10 new photos \u2014 with Anurag Upadhyay and Vikas Singh at Old Rag Mountain.",
+        "created_time": "2017-11-09T03:17:53+0000",
+        "id": "10202431871380451_10210296507831447"
+      },
+      {
+        "message": "Another hike",
+        "story": "Sumit Jha added 6 new photos \u2014 with Anurag Upadhyay and Vikas Singh at Pilot Mountain State Park.",
+        "created_time": "2017-10-29T17:22:48+0000",
+        "id": "10202431871380451_10210227062375354"
+      },
+      {
+        "message": "Some view",
+        "story": "Sumit Jha is with Anurag Upadhyay and 2 others at Brooklyn Bridge.",
+        "created_time": "2017-09-04T01:09:16+0000",
+        "id": "10202431871380451_10209875679791009"
+      }
+    ],
+    "paging": {
+      "previous": "https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&since=1514303998&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&__paging_token=enc_AdBfazm6j0oldKYu3vFKR3xCw86yRvnf66lszP3UvoH89XhfJVrrjuhuMvbi0FoibtaNSfXgcV0VPzN15sXuB6hb&__previous=1",
+      "next": "https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&until=1504487356&__paging_token=enc_AdAZBKaNFHdu3iR1ZA0JdYsuDheZAkmc9Yoxki8Fp32WDqNvCU40HDR6GDiaEIoc4BWz4vMqXvu4vtE7esJkRawxwG7"
+    }
+  },
+  "id": "10202431871380451"
+}
+
+Process finished with exit code 0
