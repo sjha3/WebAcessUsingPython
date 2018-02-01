@@ -6,6 +6,9 @@ while True:
     place = input("Enter place:")
     url = service+urllib.parse.urlencode({'address':place}) #encode place here
     uh=urllib.request.urlopen(url)
+    #urlopen has two ways to see info as shown below
+    print("url ", uh.geturl())
+    print('url info', uh.info())
     data = uh.read().decode()
     header = uh.getheaders()
     json_data = json.loads(data)
