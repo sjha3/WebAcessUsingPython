@@ -24,10 +24,24 @@ while True:
 
 
 '''
+C:\Users\sumit\PycharmProjects\WebAccessUsingPython\venv\Scripts\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/google-map-api-parse.py
 Enter place:Raleigh
+url  http://maps.googleapis.com/maps/api/geocode/json?address=Raleigh
+url info Content-Type: application/json; charset=UTF-8
+Date: Sat, 03 Feb 2018 18:07:29 GMT
+Expires: Sun, 04 Feb 2018 18:07:29 GMT
+Cache-Control: public, max-age=86400
+Access-Control-Allow-Origin: *
+Server: mafe
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: none
+Vary: Accept-Language,Accept-Encoding
+Connection: close
+
 Complete info of  Raleigh : {'results': [{'address_components': [{'long_name': 'Raleigh', 'short_name': 'Raleigh', 'types': ['locality', 'political']}, {'long_name': 'Wake County', 'short_name': 'Wake County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'North Carolina', 'short_name': 'NC', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}], 'formatted_address': 'Raleigh, NC, USA', 'geometry': {'bounds': {'northeast': {'lat': 35.97172800000001, 'lng': -78.471063}, 'southwest': {'lat': 35.7158079, 'lng': -78.8190489}}, 'location': {'lat': 35.7795897, 'lng': -78.6381787}, 'location_type': 'APPROXIMATE', 'viewport': {'northeast': {'lat': 35.97172800000001, 'lng': -78.471063}, 'southwest': {'lat': 35.7158079, 'lng': -78.8190489}}}, 'place_id': 'ChIJ9-BRny9arIkRrfARilK2kGc', 'types': ['locality', 'political']}], 'status': 'OK'}
 Value of key 'formatted_address' : Raleigh, NC, USA
 Geometry results  {'lat': 35.7795897, 'lng': -78.6381787}
-Header :  [('Content-Type', 'application/json; charset=UTF-8'), ('Date', 'Thu, 01 Feb 2018 04:57:51 GMT'), ('Expires', 'Fri, 02 Feb 2018 04:57:51 GMT'), ('Cache-Control', 'public, max-age=86400'), ('Access-Control-Allow-Origin', '*'), ('Server', 'mafe'), ('X-XSS-Protection', '1; mode=block'), ('X-Frame-Options', 'SAMEORIGIN'), ('Accept-Ranges', 'none'), ('Vary', 'Accept-Language,Accept-Encoding'), ('Connection', 'close')]
+Header :  [('Content-Type', 'application/json; charset=UTF-8'), ('Date', 'Sat, 03 Feb 2018 18:07:29 GMT'), ('Expires', 'Sun, 04 Feb 2018 18:07:29 GMT'), ('Cache-Control', 'public, max-age=86400'), ('Access-Control-Allow-Origin', '*'), ('Server', 'mafe'), ('X-XSS-Protection', '1; mode=block'), ('X-Frame-Options', 'SAMEORIGIN'), ('Accept-Ranges', 'none'), ('Vary', 'Accept-Language,Accept-Encoding'), ('Connection', 'close')]
 Enter place:
 '''
