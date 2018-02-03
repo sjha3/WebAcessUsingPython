@@ -1,105 +1,107 @@
 C:\Users\sumit\PycharmProjects\WebAccessUsingPython\venv\Scripts\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/github_crawl.py
 URL : https://api.github.com/repos/sjha3/WebAcessUsingPython/commits
-headers : [('Server', 'GitHub.com'), ('Date', 'Sat, 03 Feb 2018 17:43:01 GMT'), ('Content-Type', 'application/json; charset=utf-8'), ('Content-Length', '16676'), ('Connection', 'close'), ('Status', '200 OK'), ('X-RateLimit-Limit', '60'), ('X-RateLimit-Remaining', '38'), ('X-RateLimit-Reset', '1517681109'), ('Cache-Control', 'public, max-age=60, s-maxage=60'), ('Vary', 'Accept'), ('ETag', '"1fab6871cc3e9f003a5de9cbd690540a"'), ('Last-Modified', 'Thu, 01 Feb 2018 21:36:30 GMT'), ('X-GitHub-Media-Type', 'github.v3; format=json'), ('Access-Control-Expose-Headers', 'ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval'), ('Access-Control-Allow-Origin', '*'), ('Content-Security-Policy', "default-src 'none'"), ('Strict-Transport-Security', 'max-age=31536000; includeSubdomains; preload'), ('X-Content-Type-Options', 'nosniff'), ('X-Frame-Options', 'deny'), ('X-XSS-Protection', '1; mode=block'), ('X-Runtime-rack', '0.048103'), ('X-GitHub-Request-Id', 'ED88:1A766:2CBB999:544E28F:5A75F4A4')]  type  <class 'list'>
+url info  :  Server: GitHub.com
+Date: Sat, 03 Feb 2018 18:15:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 17980
+Connection: close
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 47
+X-RateLimit-Reset: 1517684940
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "c7d4b94763dcfcf5b500ba6e4261c154"
+Last-Modified: Sat, 03 Feb 2018 17:56:07 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-Runtime-rack: 0.052129
+X-GitHub-Request-Id: EE26:1A766:2CEE1DC:54A7798:5A75FC56
+
+
 ========= Commit Hashes===========
-['8800111ab2b8a954afc54907b941a6a98b0ba1e8', '4b7a0299f7da360a2f4c741861234bbc257ebac7', 'fc14a9c006ab959061838e38b276361b2d988126', 'a3116eb33cdd9337da51fc8948cbe70ab6fd93e3', 'e72d5211203d89a184a5e4db35afc9a2ab060417', 'ecaaeb760df1395987f1e8078eb6c2ebe0254e66', 'b5767ddb8fb2f48e520d4f29cdb51baef0bd6d66', '74e779cf72be02217292aafc6899cc2a321ee580', '5e7fba65103b6ed0b7e1a1229d9fffc47b11f1b2']
-========= Details of Commit Hash  8800111ab2b8a954afc54907b941a6a98b0ba1e8
-URL : https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8
+['0f5d9e2ab0758a303e4dbc473b4197fb3ced60de', '8800111ab2b8a954afc54907b941a6a98b0ba1e8', '4b7a0299f7da360a2f4c741861234bbc257ebac7', 'fc14a9c006ab959061838e38b276361b2d988126', 'a3116eb33cdd9337da51fc8948cbe70ab6fd93e3', 'e72d5211203d89a184a5e4db35afc9a2ab060417', 'ecaaeb760df1395987f1e8078eb6c2ebe0254e66', 'b5767ddb8fb2f48e520d4f29cdb51baef0bd6d66', '74e779cf72be02217292aafc6899cc2a321ee580', '5e7fba65103b6ed0b7e1a1229d9fffc47b11f1b2']
+========= Details of Commit Hash  0f5d9e2ab0758a303e4dbc473b4197fb3ced60de
+URL : https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de
 {
-  "sha": "8800111ab2b8a954afc54907b941a6a98b0ba1e8",
+  "sha": "0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
   "commit": {
     "author": {
-      "name": "Sumit Kumar Jha",
-      "email": "sumit.skj76@gmail.com",
-      "date": "2018-02-01T21:36:30Z"
+      "name": "sjha3",
+      "email": "sjha3@ncsu.edu",
+      "date": "2018-02-03T17:56:07Z"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com",
-      "date": "2018-02-01T21:36:30Z"
+      "name": "sjha3",
+      "email": "sjha3@ncsu.edu",
+      "date": "2018-02-03T17:56:07Z"
     },
-    "message": "token",
+    "message": "github crawl",
     "tree": {
-      "sha": "02931ea458d05fee8fc155d95a9aca357efd34bd",
-      "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/git/trees/02931ea458d05fee8fc155d95a9aca357efd34bd"
+      "sha": "ec7d7149c8b73383a4e5096e9a2f12d1b4f69d43",
+      "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/git/trees/ec7d7149c8b73383a4e5096e9a2f12d1b4f69d43"
     },
-    "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/git/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8",
+    "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/git/commits/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
     "comment_count": 0,
     "verification": {
-      "verified": true,
-      "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJac4heCRBK7hj4Ov3rIwAAdHIIAHXyNicHNFfBmV0w1c2RpB4S\ntA86aEjTpIMja5Nj8JPW5bzFC3bRxYB87OM5jmqB9UWlTA5NYSsBN3xslITeY+k5\n/ufR21t6akpVrtwh1IWLU/B3cyqJ6pRIcpu+4p5Pdjw3TZFb2k7sj1ArGH6cxgiq\nozRT7WvYPiniKOykPZxvPGvqQa2mDiVhwSvxmnYBHLTiW5MVMbmeHvITCG0SSdgd\nvODnUbJTcve4dpL0EpZV9aVCf7iO6HA1p/NGA9o9/4Dn8tQXcP/ZWCcYywoPs7VE\noRZUFas3RIGFrWRZp2mTfnsGAP/cu8NX8/MSM9plVNz+keuypuzf7MnrgVaxYI4=\n=GUk4\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 02931ea458d05fee8fc155d95a9aca357efd34bd\nparent 4b7a0299f7da360a2f4c741861234bbc257ebac7\nauthor Sumit Kumar Jha <sumit.skj76@gmail.com> 1517520990 -0500\ncommitter GitHub <noreply@github.com> 1517520990 -0500\n\ntoken"
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
     }
   },
-  "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8",
-  "html_url": "https://github.com/sjha3/WebAcessUsingPython/commit/8800111ab2b8a954afc54907b941a6a98b0ba1e8",
-  "comments_url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8/comments",
-  "author": {
-    "login": "sjha3",
-    "id": 15273479,
-    "avatar_url": "https://avatars0.githubusercontent.com/u/15273479?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/sjha3",
-    "html_url": "https://github.com/sjha3",
-    "followers_url": "https://api.github.com/users/sjha3/followers",
-    "following_url": "https://api.github.com/users/sjha3/following{/other_user}",
-    "gists_url": "https://api.github.com/users/sjha3/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/sjha3/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/sjha3/subscriptions",
-    "organizations_url": "https://api.github.com/users/sjha3/orgs",
-    "repos_url": "https://api.github.com/users/sjha3/repos",
-    "events_url": "https://api.github.com/users/sjha3/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/sjha3/received_events",
-    "type": "User",
-    "site_admin": false
-  },
-  "committer": {
-    "login": "web-flow",
-    "id": 19864447,
-    "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/web-flow",
-    "html_url": "https://github.com/web-flow",
-    "followers_url": "https://api.github.com/users/web-flow/followers",
-    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-    "organizations_url": "https://api.github.com/users/web-flow/orgs",
-    "repos_url": "https://api.github.com/users/web-flow/repos",
-    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/web-flow/received_events",
-    "type": "User",
-    "site_admin": false
-  },
+  "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
+  "html_url": "https://github.com/sjha3/WebAcessUsingPython/commit/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
+  "comments_url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de/comments",
+  "author": null,
+  "committer": null,
   "parents": [
     {
-      "sha": "4b7a0299f7da360a2f4c741861234bbc257ebac7",
-      "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/4b7a0299f7da360a2f4c741861234bbc257ebac7",
-      "html_url": "https://github.com/sjha3/WebAcessUsingPython/commit/4b7a0299f7da360a2f4c741861234bbc257ebac7"
+      "sha": "8800111ab2b8a954afc54907b941a6a98b0ba1e8",
+      "url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8",
+      "html_url": "https://github.com/sjha3/WebAcessUsingPython/commit/8800111ab2b8a954afc54907b941a6a98b0ba1e8"
     }
   ],
   "stats": {
-    "total": 14,
-    "additions": 7,
-    "deletions": 7
+    "total": 153,
+    "additions": 153,
+    "deletions": 0
   },
   "files": [
     {
-      "sha": "bb97d8cbee4263f570e9e267596900b357370c97",
-      "filename": "facebook_crawl_ouput",
-      "status": "modified",
-      "additions": 7,
-      "deletions": 7,
-      "changes": 14,
-      "blob_url": "https://github.com/sjha3/WebAcessUsingPython/blob/8800111ab2b8a954afc54907b941a6a98b0ba1e8/facebook_crawl_ouput",
-      "raw_url": "https://github.com/sjha3/WebAcessUsingPython/raw/8800111ab2b8a954afc54907b941a6a98b0ba1e8/facebook_crawl_ouput",
-      "contents_url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/contents/facebook_crawl_ouput?ref=8800111ab2b8a954afc54907b941a6a98b0ba1e8",
-      "patch": "@@ -1,13 +1,13 @@\n C:\\Users\\sumit\\PycharmProjects\\WebAccessUsingPython\\venv\\Scripts\\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/facebook_crawl.py\n ============ Just me===========\n-URL : https://graph.facebook.com/v2.12/me?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\n+URL : https://graph.facebook.com/v2.12/me?access_token=#\n headers : [('x-app-usage', '{\"call_count\":3,\"total_cputime\":2,\"total_time\":2}'), ('ETag', '\"1f5ea34a41fd27ccf4b871dd56c35a5341645373\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'AFwdGOdLFFx'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'NV/25HSEqBDhT+mH0T0/OY3dGAHoqWoOIbkzKShpGaC3rK5c9elbNqNAkYQDBuTLhk0TJ6hbggl5T36fGErfCQ=='), ('Date', 'Thu, 01 Feb 2018 19:53:01 GMT'), ('Connection', 'close'), ('Content-Length', '45')]\n Json_output ::  {\n   \"name\": \"Sumit Jha\",\n   \"id\": \"10202431871380451\"\n }\n ============Me with friends===========\n-URL : https://graph.facebook.com/v2.12/me/friends?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\n+URL : https://graph.facebook.com/v2.12/me/friends?access_token=#\n headers : [('x-app-usage', '{\"call_count\":3,\"total_cputime\":2,\"total_time\":2}'), ('ETag', '\"bf481f68e9eb066bb0331d0f3405f59b526e4130\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'B8+UwWcyjY8'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'k0RGVqFbl/aPjohDQYW31esqZjKIB4qdGQldGurW8b6qjaYsMwy+J1pRrFcVA1m67uyLI6Yh/uYJm206zadvsA=='), ('Date', 'Thu, 01 Feb 2018 19:53:07 GMT'), ('Connection', 'close'), ('Content-Length', '1113')]\n Json_output ::  {\n   \"data\": [\n@@ -91,7 +91,7 @@ Json_output ::  {\n   }\n }\n ============My photos===========\n-URL : https://graph.facebook.com/v2.12/me?fields=id,photos&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\n+URL : https://graph.facebook.com/v2.12/me?fields=id,photos&access_token=#\n headers : [('x-app-usage', '{\"call_count\":3,\"total_cputime\":2,\"total_time\":2}'), ('ETag', '\"e30545b7e76e33ec7ed71eb730ee192c83ae75a0\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'DCtA4RwQ05K'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'uI0kJN4mPOQ/X7+Jip8Wqw23oOrHPQKVmuGJ/3uvYi4wvd3Ph8GBIlWCYxbXCe8sOmHsZ+LVmTobNtSeLh/mRA=='), ('Date', 'Thu, 01 Feb 2018 19:53:08 GMT'), ('Connection', 'close'), ('Content-Length', '2420')]\n Json_output ::  {\n   \"id\": \"10202431871380451\",\n@@ -205,12 +205,12 @@ Json_output ::  {\n         \"before\": \"TVRBeU1EazROelUyTnpnNE56QTVPRFk2TVRVd05EUTROek0xTmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\",\n         \"after\": \"TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\"\n       },\n-      \"next\": \"https://graph.facebook.com/v2.12/10202431871380451/photos?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&limit=25&after=TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\"\n+      \"next\": \"https://graph.facebook.com/v2.12/10202431871380451/photos?access_token=#\"\n     }\n   }\n }\n =============albums======\n-URL : https://graph.facebook.com/v2.12/me?fields=albums.limit(5),posts.limit(5)&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\n+URL : https://graph.facebook.com/v2.12/me?fields=albums.limit(5),posts.limit(5)&access_token=#\n headers : [('x-app-usage', '{\"call_count\":3,\"total_cputime\":2,\"total_time\":2}'), ('ETag', '\"018ea30f6905957112d0f2269e02d78268008440\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'G4X1x0HWjvA'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', '1PBAJ7CtIk6qBHcScNtGk0RFi1m20eN6tE5ccwg/scNgv66hFYlTdMqvRyudrm+EzVfDX9Eo4ERb+52qimZoHg=='), ('Date', 'Thu, 01 Feb 2018 19:53:09 GMT'), ('Connection', 'close'), ('Content-Length', '2355')]\n Json_output ::  {\n   \"albums\": {\n@@ -276,8 +276,8 @@ Json_output ::  {\n       }\n     ],\n     \"paging\": {\n-      \"previous\": \"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&since=1514303998&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&__paging_token=enc_AdBfazm6j0oldKYu3vFKR3xCw86yRvnf66lszP3UvoH89XhfJVrrjuhuMvbi0FoibtaNSfXgcV0VPzN15sXuB6hb&__previous=1\",\n-      \"next\": \"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&until=1504487356&__paging_token=enc_AdAZBKaNFHdu3iR1ZA0JdYsuDheZAkmc9Yoxki8Fp32WDqNvCU40HDR6GDiaEIoc4BWz4vMqXvu4vtE7esJkRawxwG7\"\n+      \"previous\": \"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&since=1514303998&access_token=#&__paging_token=enc_AdBfazm6j0oldKYu3vFKR3xCw86yRvnf66lszP3UvoH89XhfJVrrjuhuMvbi0FoibtaNSfXgcV0VPzN15sXuB6hb&__previous=1\",\n+      \"next\": \"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&access_token=#&until=1504487356&__paging_token=enc_AdAZBKaNFHdu3iR1ZA0JdYsuDheZAkmc9Yoxki8Fp32WDqNvCU40HDR6GDiaEIoc4BWz4vMqXvu4vtE7esJkRawxwG7\"\n     }\n   },\n   \"id\": \"10202431871380451\""
+      "sha": "5d290897ca162dbaed2e0d5ae6f71da025f40fb6",
+      "filename": "github_crawl.py",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "changes": 48,
+      "blob_url": "https://github.com/sjha3/WebAcessUsingPython/blob/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de/github_crawl.py",
+      "raw_url": "https://github.com/sjha3/WebAcessUsingPython/raw/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de/github_crawl.py",
+      "contents_url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/contents/github_crawl.py?ref=0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
+      "patch": "@@ -0,0 +1,48 @@\n+import urllib.parse, urllib.error, urllib.request\n+import json\n+#url = https://api.github.com/repos/sjha3/WebAcessUsingPython/commits  #shows all commits\n+#url = 'https://api.github.com/users/sjha3' #gives all the details\n+#url = 'https://api.github.com/users/sjha3/repos' #gives all the repo\n+token='44fb5f549425d1c2733c6372edebdf128daf798f'\n+commits=[]\n+\n+def get_url_fh(url):\n+    print('URL :', url)\n+    try :\n+        uh = urllib.request.urlopen(url)\n+    except urllib.error.HTTPError as e:\n+        print(e.code)\n+        print(e.reason)\n+    except urllib.error.URLError as er:\n+        print(er.code)\n+        print(er.reason)\n+    return uh\n+\n+def get_commits(url):\n+    #url = url + 'access_token=' + token  # encode place here\n+    uh=get_url_fh(url)\n+    header = uh.getheaders()\n+    data = uh.read().decode()\n+    json_data = json.loads(data)\n+    print('headers :', header,' type ',type(header))\n+    #print(\"Json_output :: \", json.dumps(json_data, indent=2))\n+    for elem in json_data:\n+        if 'sha' in elem:\n+            commits.append(elem['sha'])\n+\n+\n+#url = 'https://api.github.com/users/sjha3' #gives all the details\n+#url = 'https://api.github.com/users/sjha3/repos' #gives all the repos\n+#get_url_data(url)\n+url = 'https://api.github.com/repos/sjha3/WebAcessUsingPython/commits'\n+get_commits(url)\n+print('========= Commit Hashes===========')\n+print(commits)\n+print('========= Details of Commit Hash ',commits[0])\n+url = url+'/'+commits[0]\n+fh = get_url_fh(url)\n+data = fh.read().decode()\n+json_data = json.loads(data)\n+print(json.dumps(json_data, indent=2))\n+for file in json_data['files']:\n+    print('filename :',file['filename'])\n\\ No newline at end of file"
+    },
+    {
+      "sha": "fa759015eb408a2dd168e9fe201bd65844c571a6",
+      "filename": "github_crawl_output",
+      "status": "added",
+      "additions": 105,
+      "deletions": 0,
+      "changes": 105,
+      "blob_url": "https://github.com/sjha3/WebAcessUsingPython/blob/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de/github_crawl_output",
+      "raw_url": "https://github.com/sjha3/WebAcessUsingPython/raw/0f5d9e2ab0758a303e4dbc473b4197fb3ced60de/github_crawl_output",
+      "contents_url": "https://api.github.com/repos/sjha3/WebAcessUsingPython/contents/github_crawl_output?ref=0f5d9e2ab0758a303e4dbc473b4197fb3ced60de",
+      "patch": "@@ -0,0 +1,105 @@\n+C:\\Users\\sumit\\PycharmProjects\\WebAccessUsingPython\\venv\\Scripts\\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/github_crawl.py\n+URL : https://api.github.com/repos/sjha3/WebAcessUsingPython/commits\n+headers : [('Server', 'GitHub.com'), ('Date', 'Sat, 03 Feb 2018 17:43:01 GMT'), ('Content-Type', 'application/json; charset=utf-8'), ('Content-Length', '16676'), ('Connection', 'close'), ('Status', '200 OK'), ('X-RateLimit-Limit', '60'), ('X-RateLimit-Remaining', '38'), ('X-RateLimit-Reset', '1517681109'), ('Cache-Control', 'public, max-age=60, s-maxage=60'), ('Vary', 'Accept'), ('ETag', '\"1fab6871cc3e9f003a5de9cbd690540a\"'), ('Last-Modified', 'Thu, 01 Feb 2018 21:36:30 GMT'), ('X-GitHub-Media-Type', 'github.v3; format=json'), ('Access-Control-Expose-Headers', 'ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval'), ('Access-Control-Allow-Origin', '*'), ('Content-Security-Policy', \"default-src 'none'\"), ('Strict-Transport-Security', 'max-age=31536000; includeSubdomains; preload'), ('X-Content-Type-Options', 'nosniff'), ('X-Frame-Options', 'deny'), ('X-XSS-Protection', '1; mode=block'), ('X-Runtime-rack', '0.048103'), ('X-GitHub-Request-Id', 'ED88:1A766:2CBB999:544E28F:5A75F4A4')]  type  <class 'list'>\n+========= Commit Hashes===========\n+['8800111ab2b8a954afc54907b941a6a98b0ba1e8', '4b7a0299f7da360a2f4c741861234bbc257ebac7', 'fc14a9c006ab959061838e38b276361b2d988126', 'a3116eb33cdd9337da51fc8948cbe70ab6fd93e3', 'e72d5211203d89a184a5e4db35afc9a2ab060417', 'ecaaeb760df1395987f1e8078eb6c2ebe0254e66', 'b5767ddb8fb2f48e520d4f29cdb51baef0bd6d66', '74e779cf72be02217292aafc6899cc2a321ee580', '5e7fba65103b6ed0b7e1a1229d9fffc47b11f1b2']\n+========= Details of Commit Hash  8800111ab2b8a954afc54907b941a6a98b0ba1e8\n+URL : https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8\n+{\n+  \"sha\": \"8800111ab2b8a954afc54907b941a6a98b0ba1e8\",\n+  \"commit\": {\n+    \"author\": {\n+      \"name\": \"Sumit Kumar Jha\",\n+      \"email\": \"sumit.skj76@gmail.com\",\n+      \"date\": \"2018-02-01T21:36:30Z\"\n+    },\n+    \"committer\": {\n+      \"name\": \"GitHub\",\n+      \"email\": \"noreply@github.com\",\n+      \"date\": \"2018-02-01T21:36:30Z\"\n+    },\n+    \"message\": \"token\",\n+    \"tree\": {\n+      \"sha\": \"02931ea458d05fee8fc155d95a9aca357efd34bd\",\n+      \"url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/git/trees/02931ea458d05fee8fc155d95a9aca357efd34bd\"\n+    },\n+    \"url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/git/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8\",\n+    \"comment_count\": 0,\n+    \"verification\": {\n+      \"verified\": true,\n+      \"reason\": \"valid\",\n+      \"signature\": \"-----BEGIN PGP SIGNATURE-----\\n\\nwsBcBAABCAAQBQJac4heCRBK7hj4Ov3rIwAAdHIIAHXyNicHNFfBmV0w1c2RpB4S\\ntA86aEjTpIMja5Nj8JPW5bzFC3bRxYB87OM5jmqB9UWlTA5NYSsBN3xslITeY+k5\\n/ufR21t6akpVrtwh1IWLU/B3cyqJ6pRIcpu+4p5Pdjw3TZFb2k7sj1ArGH6cxgiq\\nozRT7WvYPiniKOykPZxvPGvqQa2mDiVhwSvxmnYBHLTiW5MVMbmeHvITCG0SSdgd\\nvODnUbJTcve4dpL0EpZV9aVCf7iO6HA1p/NGA9o9/4Dn8tQXcP/ZWCcYywoPs7VE\\noRZUFas3RIGFrWRZp2mTfnsGAP/cu8NX8/MSM9plVNz+keuypuzf7MnrgVaxYI4=\\n=GUk4\\n-----END PGP SIGNATURE-----\\n\",\n+      \"payload\": \"tree 02931ea458d05fee8fc155d95a9aca357efd34bd\\nparent 4b7a0299f7da360a2f4c741861234bbc257ebac7\\nauthor Sumit Kumar Jha <sumit.skj76@gmail.com> 1517520990 -0500\\ncommitter GitHub <noreply@github.com> 1517520990 -0500\\n\\ntoken\"\n+    }\n+  },\n+  \"url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8\",\n+  \"html_url\": \"https://github.com/sjha3/WebAcessUsingPython/commit/8800111ab2b8a954afc54907b941a6a98b0ba1e8\",\n+  \"comments_url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/8800111ab2b8a954afc54907b941a6a98b0ba1e8/comments\",\n+  \"author\": {\n+    \"login\": \"sjha3\",\n+    \"id\": 15273479,\n+    \"avatar_url\": \"https://avatars0.githubusercontent.com/u/15273479?v=4\",\n+    \"gravatar_id\": \"\",\n+    \"url\": \"https://api.github.com/users/sjha3\",\n+    \"html_url\": \"https://github.com/sjha3\",\n+    \"followers_url\": \"https://api.github.com/users/sjha3/followers\",\n+    \"following_url\": \"https://api.github.com/users/sjha3/following{/other_user}\",\n+    \"gists_url\": \"https://api.github.com/users/sjha3/gists{/gist_id}\",\n+    \"starred_url\": \"https://api.github.com/users/sjha3/starred{/owner}{/repo}\",\n+    \"subscriptions_url\": \"https://api.github.com/users/sjha3/subscriptions\",\n+    \"organizations_url\": \"https://api.github.com/users/sjha3/orgs\",\n+    \"repos_url\": \"https://api.github.com/users/sjha3/repos\",\n+    \"events_url\": \"https://api.github.com/users/sjha3/events{/privacy}\",\n+    \"received_events_url\": \"https://api.github.com/users/sjha3/received_events\",\n+    \"type\": \"User\",\n+    \"site_admin\": false\n+  },\n+  \"committer\": {\n+    \"login\": \"web-flow\",\n+    \"id\": 19864447,\n+    \"avatar_url\": \"https://avatars3.githubusercontent.com/u/19864447?v=4\",\n+    \"gravatar_id\": \"\",\n+    \"url\": \"https://api.github.com/users/web-flow\",\n+    \"html_url\": \"https://github.com/web-flow\",\n+    \"followers_url\": \"https://api.github.com/users/web-flow/followers\",\n+    \"following_url\": \"https://api.github.com/users/web-flow/following{/other_user}\",\n+    \"gists_url\": \"https://api.github.com/users/web-flow/gists{/gist_id}\",\n+    \"starred_url\": \"https://api.github.com/users/web-flow/starred{/owner}{/repo}\",\n+    \"subscriptions_url\": \"https://api.github.com/users/web-flow/subscriptions\",\n+    \"organizations_url\": \"https://api.github.com/users/web-flow/orgs\",\n+    \"repos_url\": \"https://api.github.com/users/web-flow/repos\",\n+    \"events_url\": \"https://api.github.com/users/web-flow/events{/privacy}\",\n+    \"received_events_url\": \"https://api.github.com/users/web-flow/received_events\",\n+    \"type\": \"User\",\n+    \"site_admin\": false\n+  },\n+  \"parents\": [\n+    {\n+      \"sha\": \"4b7a0299f7da360a2f4c741861234bbc257ebac7\",\n+      \"url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/commits/4b7a0299f7da360a2f4c741861234bbc257ebac7\",\n+      \"html_url\": \"https://github.com/sjha3/WebAcessUsingPython/commit/4b7a0299f7da360a2f4c741861234bbc257ebac7\"\n+    }\n+  ],\n+  \"stats\": {\n+    \"total\": 14,\n+    \"additions\": 7,\n+    \"deletions\": 7\n+  },\n+  \"files\": [\n+    {\n+      \"sha\": \"bb97d8cbee4263f570e9e267596900b357370c97\",\n+      \"filename\": \"facebook_crawl_ouput\",\n+      \"status\": \"modified\",\n+      \"additions\": 7,\n+      \"deletions\": 7,\n+      \"changes\": 14,\n+      \"blob_url\": \"https://github.com/sjha3/WebAcessUsingPython/blob/8800111ab2b8a954afc54907b941a6a98b0ba1e8/facebook_crawl_ouput\",\n+      \"raw_url\": \"https://github.com/sjha3/WebAcessUsingPython/raw/8800111ab2b8a954afc54907b941a6a98b0ba1e8/facebook_crawl_ouput\",\n+      \"contents_url\": \"https://api.github.com/repos/sjha3/WebAcessUsingPython/contents/facebook_crawl_ouput?ref=8800111ab2b8a954afc54907b941a6a98b0ba1e8\",\n+      \"patch\": \"@@ -1,13 +1,13 @@\\n C:\\\\Users\\\\sumit\\\\PycharmProjects\\\\WebAccessUsingPython\\\\venv\\\\Scripts\\\\python.exe C:/Users/sumit/PycharmProjects/WebAcessUsingPython/facebook_crawl.py\\n ============ Just me===========\\n-URL : https://graph.facebook.com/v2.12/me?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\\n+URL : https://graph.facebook.com/v2.12/me?access_token=#\\n headers : [('x-app-usage', '{\\\"call_count\\\":3,\\\"total_cputime\\\":2,\\\"total_time\\\":2}'), ('ETag', '\\\"1f5ea34a41fd27ccf4b871dd56c35a5341645373\\\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'AFwdGOdLFFx'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'NV/25HSEqBDhT+mH0T0/OY3dGAHoqWoOIbkzKShpGaC3rK5c9elbNqNAkYQDBuTLhk0TJ6hbggl5T36fGErfCQ=='), ('Date', 'Thu, 01 Feb 2018 19:53:01 GMT'), ('Connection', 'close'), ('Content-Length', '45')]\\n Json_output ::  {\\n   \\\"name\\\": \\\"Sumit Jha\\\",\\n   \\\"id\\\": \\\"10202431871380451\\\"\\n }\\n ============Me with friends===========\\n-URL : https://graph.facebook.com/v2.12/me/friends?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\\n+URL : https://graph.facebook.com/v2.12/me/friends?access_token=#\\n headers : [('x-app-usage', '{\\\"call_count\\\":3,\\\"total_cputime\\\":2,\\\"total_time\\\":2}'), ('ETag', '\\\"bf481f68e9eb066bb0331d0f3405f59b526e4130\\\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'B8+UwWcyjY8'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'k0RGVqFbl/aPjohDQYW31esqZjKIB4qdGQldGurW8b6qjaYsMwy+J1pRrFcVA1m67uyLI6Yh/uYJm206zadvsA=='), ('Date', 'Thu, 01 Feb 2018 19:53:07 GMT'), ('Connection', 'close'), ('Content-Length', '1113')]\\n Json_output ::  {\\n   \\\"data\\\": [\\n@@ -91,7 +91,7 @@ Json_output ::  {\\n   }\\n }\\n ============My photos===========\\n-URL : https://graph.facebook.com/v2.12/me?fields=id,photos&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\\n+URL : https://graph.facebook.com/v2.12/me?fields=id,photos&access_token=#\\n headers : [('x-app-usage', '{\\\"call_count\\\":3,\\\"total_cputime\\\":2,\\\"total_time\\\":2}'), ('ETag', '\\\"e30545b7e76e33ec7ed71eb730ee192c83ae75a0\\\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'DCtA4RwQ05K'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', 'uI0kJN4mPOQ/X7+Jip8Wqw23oOrHPQKVmuGJ/3uvYi4wvd3Ph8GBIlWCYxbXCe8sOmHsZ+LVmTobNtSeLh/mRA=='), ('Date', 'Thu, 01 Feb 2018 19:53:08 GMT'), ('Connection', 'close'), ('Content-Length', '2420')]\\n Json_output ::  {\\n   \\\"id\\\": \\\"10202431871380451\\\",\\n@@ -205,12 +205,12 @@ Json_output ::  {\\n         \\\"before\\\": \\\"TVRBeU1EazROelUyTnpnNE56QTVPRFk2TVRVd05EUTROek0xTmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\\\",\\n         \\\"after\\\": \\\"TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\\\"\\n       },\\n-      \\\"next\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/photos?access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&limit=25&after=TVRBeU1EVTNNVEUyTXpneU5USTFOek02TVRRMU56UTNOVGd3Tmpvek9UUXdPRGsyTkRBMk5EYzRNelk9\\\"\\n+      \\\"next\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/photos?access_token=#\\\"\\n     }\\n   }\\n }\\n =============albums======\\n-URL : https://graph.facebook.com/v2.12/me?fields=albums.limit(5),posts.limit(5)&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD\\n+URL : https://graph.facebook.com/v2.12/me?fields=albums.limit(5),posts.limit(5)&access_token=#\\n headers : [('x-app-usage', '{\\\"call_count\\\":3,\\\"total_cputime\\\":2,\\\"total_time\\\":2}'), ('ETag', '\\\"018ea30f6905957112d0f2269e02d78268008440\\\"'), ('Strict-Transport-Security', 'max-age=15552000; preload'), ('x-fb-trace-id', 'G4X1x0HWjvA'), ('x-fb-rev', '3616372'), ('Expires', 'Sat, 01 Jan 2000 00:00:00 GMT'), ('Content-Type', 'text/javascript; charset=UTF-8'), ('facebook-api-version', 'v2.12'), ('Cache-Control', 'private, no-cache, no-store, must-revalidate'), ('Pragma', 'no-cache'), ('Access-Control-Allow-Origin', '*'), ('Vary', 'Accept-Encoding'), ('X-FB-Debug', '1PBAJ7CtIk6qBHcScNtGk0RFi1m20eN6tE5ccwg/scNgv66hFYlTdMqvRyudrm+EzVfDX9Eo4ERb+52qimZoHg=='), ('Date', 'Thu, 01 Feb 2018 19:53:09 GMT'), ('Connection', 'close'), ('Content-Length', '2355')]\\n Json_output ::  {\\n   \\\"albums\\\": {\\n@@ -276,8 +276,8 @@ Json_output ::  {\\n       }\\n     ],\\n     \\\"paging\\\": {\\n-      \\\"previous\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&since=1514303998&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&__paging_token=enc_AdBfazm6j0oldKYu3vFKR3xCw86yRvnf66lszP3UvoH89XhfJVrrjuhuMvbi0FoibtaNSfXgcV0VPzN15sXuB6hb&__previous=1\\\",\\n-      \\\"next\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&access_token=EAACEdEose0cBAHCNTn4zmIZC67ctbt4wfolEcB1lyWrKE8gk9x9PkC1KBlPfM1T9NmYOwNJmbiswxwYC14vnvz20kyeIB9H0qrktMZAFzjPAeFjoop55KMOq6OYGAZCjaNYIJVWaLqmU0KoBXAAVve2SbcPMNzXTrVe9QgiHV4uZAtf6vazVBxm9nkLWQPC8vbDWoj0hVgZDZD&until=1504487356&__paging_token=enc_AdAZBKaNFHdu3iR1ZA0JdYsuDheZAkmc9Yoxki8Fp32WDqNvCU40HDR6GDiaEIoc4BWz4vMqXvu4vtE7esJkRawxwG7\\\"\\n+      \\\"previous\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&since=1514303998&access_token=#&__paging_token=enc_AdBfazm6j0oldKYu3vFKR3xCw86yRvnf66lszP3UvoH89XhfJVrrjuhuMvbi0FoibtaNSfXgcV0VPzN15sXuB6hb&__previous=1\\\",\\n+      \\\"next\\\": \\\"https://graph.facebook.com/v2.12/10202431871380451/posts?limit=5&access_token=#&until=1504487356&__paging_token=enc_AdAZBKaNFHdu3iR1ZA0JdYsuDheZAkmc9Yoxki8Fp32WDqNvCU40HDR6GDiaEIoc4BWz4vMqXvu4vtE7esJkRawxwG7\\\"\\n     }\\n   },\\n   \\\"id\\\": \\\"10202431871380451\\\"\"\n+    }\n+  ]\n+}\n+filename : facebook_crawl_ouput\n+\n+Process finished with exit code 0"
     }
   ]
 }
-filename : facebook_crawl_ouput
+files changed :
+github_crawl.py
+github_crawl_output
 
 Process finished with exit code 0
